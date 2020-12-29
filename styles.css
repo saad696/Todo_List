@@ -127,25 +127,26 @@ select{
     
 }
 
-.select{
+.select_{
     margin: 50px;
     position: relative;
     overflow: hidden; 
 }
 
-.select::after{
+.select_::after{
     content: "\25BC";
     position: absolute;
     color: rgb(0, 191, 255);
     background: #fff;
-    top: 0.9px;
+    top: 1px;
+    bottom: 1px;
     right: 0;
     padding: 0.77rem;
     pointer-events: none;
     transition: all 0.3s ease;
 }
 
-.select:hover::after{
+.select_:hover::after{
     background: rgb(0, 191, 255);
     color: #fff;
 }
