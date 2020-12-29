@@ -130,10 +130,11 @@ select{
 .select_{
     margin: 50px;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
-.select_::after{
+/* for filter button */
+/* .select_::after{
     content: "\25BC";
     position: absolute;
     color: rgb(0, 191, 255);
@@ -149,4 +150,4 @@ select{
 .select_:hover::after{
     background: rgb(0, 191, 255);
     color: #fff;
-}
+} */
